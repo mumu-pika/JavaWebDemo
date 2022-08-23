@@ -13,9 +13,12 @@
       war: javaweb应用
     -->
     <!-- packaging 项目类型，默认为jar, 描述了项目打包后的输出，类型为war的项目产生一个web应用 -->
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
     <!-- version 一个项目的特定版本 -->
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>servlet-01</module>
+    </modules>
     <name>mavenDemo1 Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
@@ -60,6 +63,5 @@
             </resource>
         </resources>
     </build>
-
 
 </project>

@@ -1,5 +1,6 @@
 package com.pikamumu;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -13,6 +14,16 @@ public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //super.doGet(req, resp);
+        
+        // this.getInitParameter() 初始化参数
+        //this.getServletConfig()   Servlet配置
+        //this.getServletContext()  ServletContext
+    
+        ServletContext servlet = this.getServletContext();
+        
+        String name = "pika";
+        servlet.setAttribute("username", name); // 将一个数据保存在了ServletContext中
+        
         
         // 响应的类型
         resp.setContentType("text/html");
@@ -31,9 +42,7 @@ public class HelloServlet extends HttpServlet {
         out.println("<h1>哈哈哈！ pika!</h1>");
         out.println("</body>");
         out.println("</html>");
-        
     }
-    
     
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

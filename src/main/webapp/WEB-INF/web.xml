@@ -18,5 +18,28 @@
   </servlet-mapping>
 
 
+
+  <servlet>
+    <servlet-name>GetServlet</servlet-name>
+    <servlet-class>com.pikamumu.GetServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>GetServlet</servlet-name>
+    <url-pattern>/pikaGetName</url-pattern>
+  </servlet-mapping>
+
+  <!-- 下载文件的servlet -->
+  <servlet>
+    <servlet-name>FileServlet</servlet-name>
+    <servlet-class>com.pikamumu.FileServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>FileServlet</servlet-name>
+    <url-pattern>/pikaFile</url-pattern>
+  </servlet-mapping>
+
+
   <display-name>Archetype Created Web Application</display-name>
 </web-app>
