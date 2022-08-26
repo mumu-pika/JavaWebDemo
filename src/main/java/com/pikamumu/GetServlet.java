@@ -15,7 +15,7 @@ public class GetServlet extends HttpServlet {
         
         response.setContentType("text/html");
         response.setCharacterEncoding("UTF-8");
-        response.getWriter().println(username);
+        response.getWriter().println("xixi234");
         
     }
     

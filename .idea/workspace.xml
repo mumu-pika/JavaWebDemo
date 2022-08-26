@@ -9,23 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38dd8047-c5e0-4279-b108-10900b365be3" name="Changes" comment="maven init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pikamumu/FileServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pikamumu/GetServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/files/saberlily1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="38dd8047-c5e0-4279-b108-10900b365be3" name="Changes" comment="servlet download commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pikamumu/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pikamumu/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pikamumu/GetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pikamumu/GetServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +80,8 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors"
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "spring.configuration.checksum": "d29ce06977869d26ef5f4c92a475c04f"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -194,7 +191,10 @@
       <workItem from="1661177927477" duration="2622000" />
       <workItem from="1661181581281" duration="720000" />
       <workItem from="1661236730027" duration="5935000" />
-      <workItem from="1661242719760" duration="6207000" />
+      <workItem from="1661242719760" duration="7454000" />
+      <workItem from="1661394738663" duration="1326000" />
+      <workItem from="1661396083337" duration="1958000" />
+      <workItem from="1661399413894" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="maven init commit">
       <created>1661181728569</created>
@@ -203,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661181728569</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="servlet download commit">
+      <created>1661249098733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661249098733</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +229,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maven init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven init commit" />
+    <MESSAGE value="servlet download commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlet download commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
